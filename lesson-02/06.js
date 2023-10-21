@@ -9,5 +9,5 @@ let passportWithAddress = {
 let clone = structuredClone(passportWithAddress)
 clone.address.city = 'Bobryisk';
 
-console.log(passportWithAddress)
-console.log(clone)
+console.log(passportWithAddress.address)
+console.log(clone.address)
