@@ -9,5 +9,5 @@ let passportWithAddress = {
 let clon = {...passportWithAddress, address: {...passportWithAddress.address}};
 clon.address.city = "Bobryisk";
 
-console.log(passportWithAddress)
-console.log(clon)
+console.log(passportWithAddress.address)
+console.log(clon.address)
