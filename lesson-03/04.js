@@ -61,5 +61,5 @@ const users = [
     }
 ];
 
-const userFiltered = users.filter(e=> e.id%2===0);
+const userFiltered = users.filter( e => e.id % 2 === 0);
 console.log(userFiltered)
