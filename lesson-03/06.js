@@ -30,4 +30,6 @@ const users3 = [
         address: '321 Hickory St'
     },
 ]
-users3.map(u=> console.log({...u, isMarried: true}))
+
+users3.forEach(i=>i.isMarried = true)
+console.log(users3)
